@@ -31,9 +31,9 @@ int _main(struct thread *td) {
     RESOLVE(libk, sceKernelDebugOutText);
 
     if (sceKernelDebugOutText) {
-        sceKernelDebugOutText(0, "==========================\n");
-        sceKernelDebugOutText(0, "Hello From inside Shellcore!!!\n");
-        sceKernelDebugOutText(0, "==========================\n");
+        sceKernelDebugOutText(0, "");
+        sceKernelDebugOutText(0, "");
+        sceKernelDebugOutText(0, "");
     }
 
     printf_notification("Disable System Updates!       Coded By Karf5");
