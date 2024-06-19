@@ -2,7 +2,7 @@
 
 Simple Payload to disable system updates for PS4 version 11.00 
 
-There are many versions of this Payload, but this version is completely developed by me and it supports PS4 versions that have problems activating Payloads
+There are many versions of this Payload, but this version is completely developed by me and it supports PS4 models that have problems activating Payloads
 
 How to use it with the Payload Guest application 
 
