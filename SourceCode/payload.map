@@ -1,0 +1,628 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+                              build/main.o (initSysUtil)
+/opt/ps4sdk/libPS4/libPS4.a(module.o)
+                              build/main.o (getFunctionAddressByName)
+/opt/ps4sdk/libPS4/libPS4.a(debug.o)
+                              build/main.o (DEBUG_SOCK)
+/opt/ps4sdk/libPS4/libPS4.a(libc.o)
+                              build/main.o (initLibc)
+/opt/ps4sdk/libPS4/libPS4.a(network.o)
+                              build/main.o (initNetwork)
+/opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+                              build/main.o (initKernel)
+/opt/ps4sdk/libPS4/libPS4.a(syscall.o)
+                              build/main.o (syscall)
+/opt/ps4sdk/libPS4/libPS4.a(file.o)
+                              /opt/ps4sdk/libPS4/libPS4.a(network.o) (write)
+
+Allocating common symbols
+Common symbol       size              file
+
+strcpy              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+asctime             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+libc                0x4               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelGettimeofday
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceSysmoduleLoadModule
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(module.o)
+getgid              0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceUserServiceInitialize
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+strerror            0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+memmove             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+snprintf            0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+strncpy_s           0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+libKernelHandle     0x4               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+__stack_chk_guard   0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceKernelGetDirectMemorySize
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+ceil                0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceNetCtlInit       0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+sceNetHtonll        0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+execve              0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+getpid              0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceNetNtohll        0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+sceKernelSleep      0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+memcpy              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelGetCurrentCpu
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceNetCtlGetInfo    0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+seekdir             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelDeleteEqueue
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceKernelGetCpuTemperature
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+getuid              0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+rewinddir           0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+malloc              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceNetInetNtop      0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+libModule           0x4               /opt/ps4sdk/libPS4/libPS4.a(module.o)
+readdir_r           0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceNetSocket        0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+getprogname         0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+readdir             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceSysUtilSendSystemNotificationWithText
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+sceUserServiceGetInitialUser
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+sceNetInetPton      0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+__stack_chk_fail    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceKernelMapDirectMemory
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+strtol              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+snprintf_s          0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sysarch             0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+strrchr             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+calloc              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+rindex              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceNetGetsockname   0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+sceKernelError      0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+atof                0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceNetHtons         0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+_Getpctype          0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sysctl              0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+fprintf             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+ctime               0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelRead       0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+strcat              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceNetSend          0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+setregid            0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+fseek               0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+libSceUserService   0x4               /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+mktime              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+strstr              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+__error             0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+rand                0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelSendNotificationRequest
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceNetHtonl         0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+setgid              0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+dirfd               0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceNetErrnoLoc      0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+sceKernelLseek      0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceKernelStat       0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+strlcpy             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+strncmp             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelLoadStartModule
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceSystemServiceLaunchWebBrowser
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+strncpy             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+realloc             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelGetSystemSwVersion
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+bcopy               0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+strtok              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+memcmp              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelClose      0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sscanf              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceUserServiceGetUserName
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+strncat             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+memmove_s           0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+fread               0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+_Stoul              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+pthread_setaffinity_np
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+strdup              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceNetSetsockopt    0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+index               0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+libSceSystemService
+                    0x4               /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+sceNetSocketClose   0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+fopen               0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelGetProcessTime
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+asctime_r           0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+setreuid            0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+localtime           0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+memset              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+ftell               0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+srand               0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+fclose              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelAllocateDirectMemory
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+time                0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+opendir             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+strcmp              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceNetRecv          0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+sceUserServiceGetLoginUserIdList
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+gmtime_s            0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceNetBind          0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+memalign            0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sprintf             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+libNetCtl           0x4               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+sceNetConnect       0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+sceNetNtohs         0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+ctime_r             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelUsleep     0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceNetCtlTerm       0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+sceKernelAddUserEvent
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+pthread_self        0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceUserServiceTerminate
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+localtime_r         0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceNetListen        0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+isdigit             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelReboot     0x8               /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+fwrite              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelCreateEqueue
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceNetNtohl         0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+sceNetGetsockopt    0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+atoi                0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+gmtime              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+strlen              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceKernelOpen       0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+strchr              0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sceNetAccept        0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+libNet              0x4               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+closedir            0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+setuid              0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sysUtilHandle       0x4               /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+sceKernelGetFsSandboxRandomWord
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceKernelAddReadEvent
+                    0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+sceNetSocketAbort   0x8               /opt/ps4sdk/libPS4/libPS4.a(network.o)
+telldir             0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+sysctlbyname        0x8               /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+free                0x8               /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /tmp/ccKcuYsl.o
+ .bss           0x0000000000000000        0x0 /tmp/ccKcuYsl.o
+ .text          0x0000000000000000        0x0 build/main.o
+ .data          0x0000000000000000        0x0 build/main.o
+ .bss           0x0000000000000000        0x0 build/main.o
+ .comment       0x0000000000000000       0x2a build/main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/main.o
+ .eh_frame      0x0000000000000000       0x60 build/main.o
+ .text          0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .data          0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .bss           0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .rodata.initUserService.str1.1
+                0x0000000000000000       0xb3 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .text.initUserService
+                0x0000000000000000       0x9b /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .text.openBrowser
+                0x0000000000000000        0xe /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .text.getUserIDList
+                0x0000000000000000       0x3e /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .text.getUserID
+                0x0000000000000000       0x14 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .text.getUserName
+                0x0000000000000000       0x88 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .text.getInitialUser
+                0x0000000000000000       0x41 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .rodata.shutdown.str1.1
+                0x0000000000000000       0x11 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .text.shutdown
+                0x0000000000000000       0x51 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .rodata.reboot.str1.1
+                0x0000000000000000       0x32 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .text.reboot   0x0000000000000000       0x3d /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .comment       0x0000000000000000       0x2a /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .eh_frame      0x0000000000000000      0x120 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .data          0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(module.o)
+ .bss           0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(module.o)
+ .text.getModuleInfo
+                0x0000000000000000       0x1e /opt/ps4sdk/libPS4/libPS4.a(module.o)
+ .text.unloadModule
+                0x0000000000000000       0x18 /opt/ps4sdk/libPS4/libPS4.a(module.o)
+ .rodata.initModule.str1.1
+                0x0000000000000000       0x2c /opt/ps4sdk/libPS4/libPS4.a(module.o)
+ .text.initModule
+                0x0000000000000000       0x43 /opt/ps4sdk/libPS4/libPS4.a(module.o)
+ .comment       0x0000000000000000       0x2a /opt/ps4sdk/libPS4/libPS4.a(module.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(module.o)
+ .eh_frame      0x0000000000000000       0x80 /opt/ps4sdk/libPS4/libPS4.a(module.o)
+ COMMON         0x0000000000000000        0xc /opt/ps4sdk/libPS4/libPS4.a(module.o)
+ .text          0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(debug.o)
+ .data          0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(debug.o)
+ .bss           0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(debug.o)
+ .comment       0x0000000000000000       0x2a /opt/ps4sdk/libPS4/libPS4.a(debug.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(debug.o)
+ .text          0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+ .data          0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+ .bss           0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+ .text.memset_s
+                0x0000000000000000       0x4b /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+ .comment       0x0000000000000000       0x2a /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+ .eh_frame      0x0000000000000000       0x50 /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+ .text          0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(network.o)
+ .data          0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(network.o)
+ .bss           0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(network.o)
+ .text.SckConnect
+                0x0000000000000000       0x9f /opt/ps4sdk/libPS4/libPS4.a(network.o)
+ .text.SckClose
+                0x0000000000000000        0x9 /opt/ps4sdk/libPS4/libPS4.a(network.o)
+ .text.SckRecv  0x0000000000000000       0xbe /opt/ps4sdk/libPS4/libPS4.a(network.o)
+ .text.SckRecvf
+                0x0000000000000000       0x74 /opt/ps4sdk/libPS4/libPS4.a(network.o)
+ .comment       0x0000000000000000       0x2a /opt/ps4sdk/libPS4/libPS4.a(network.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(network.o)
+ .eh_frame      0x0000000000000000      0x110 /opt/ps4sdk/libPS4/libPS4.a(network.o)
+ .text          0x0000000000000000       0x24 /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+ .data          0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+ .bss           0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+ .comment       0x0000000000000000       0x2a /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+ .eh_frame      0x0000000000000000       0x50 /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+ .data          0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(syscall.o)
+ .bss           0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(syscall.o)
+ .text          0x0000000000000000      0x108 /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .data          0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .bss           0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .text.getSandboxDirectory
+                0x0000000000000000       0x1a /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .text.file_exists
+                0x0000000000000000       0x24 /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .text.dir_exists
+                0x0000000000000000       0x29 /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .text.symlink_exists
+                0x0000000000000000       0x33 /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .text.touch_file
+                0x0000000000000000       0x22 /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .text.copy_file
+                0x0000000000000000       0x8f /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .rodata.copy_dir.str1.1
+                0x0000000000000000        0xb /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .text.copy_dir
+                0x0000000000000000      0x12d /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .text.file_compare
+                0x0000000000000000      0x16f /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .text.rmtree   0x0000000000000000      0x134 /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .text.fgetc_pointer
+                0x0000000000000000       0x27 /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .text.build_iovec
+                0x0000000000000000       0xd0 /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .rodata.mount_large_fs.str1.1
+                0x0000000000000000       0x4b /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .text.mount_large_fs
+                0x0000000000000000      0x14b /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .comment       0x0000000000000000       0x2a /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/ps4sdk/libPS4/libPS4.a(file.o)
+ .eh_frame      0x0000000000000000      0x258 /opt/ps4sdk/libPS4/libPS4.a(file.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/ccKcuYsl.o
+LOAD build/main.o
+
+.text           0x0000000000000000      0xe71
+ *(.text.start)
+ *(.text*)
+ .text          0x0000000000000000        0x5 /tmp/ccKcuYsl.o
+                0x0000000000000000                _start
+ .text.kpayload
+                0x0000000000000005       0x22 build/main.o
+                0x0000000000000005                kpayload
+ .text._main    0x0000000000000027      0x1aa build/main.o
+                0x0000000000000027                _main
+ .text.initSysUtil
+                0x00000000000001d1       0x82 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+                0x00000000000001d1                initSysUtil
+ .text          0x0000000000000253       0x18 /opt/ps4sdk/libPS4/libPS4.a(module.o)
+                0x0000000000000253                getFunctionAddressByName
+                0x000000000000025f                getLoadedModules
+ .text.loadModule
+                0x000000000000026b       0x1d /opt/ps4sdk/libPS4/libPS4.a(module.o)
+                0x000000000000026b                loadModule
+ .text.initLibc
+                0x0000000000000288      0x5c6 /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+                0x0000000000000288                initLibc
+ .text.initNetwork
+                0x000000000000084e      0x254 /opt/ps4sdk/libPS4/libPS4.a(network.o)
+                0x000000000000084e                initNetwork
+ .text.SckSend  0x0000000000000aa2       0x11 /opt/ps4sdk/libPS4/libPS4.a(network.o)
+                0x0000000000000aa2                SckSend
+ .text.initKernel
+                0x0000000000000ab3      0x390 /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+                0x0000000000000ab3                initKernel
+ .text          0x0000000000000e43       0x2e /opt/ps4sdk/libPS4/libPS4.a(syscall.o)
+                0x0000000000000e43                syscall
+                0x0000000000000e46                syscall_macro
+
+.plt            0x0000000000000e80        0x0
+ .plt           0x0000000000000e80        0x0 /tmp/ccKcuYsl.o
+
+.plt.got        0x0000000000000e78        0x0
+ .plt.got       0x0000000000000e78        0x0 /tmp/ccKcuYsl.o
+
+.rodata         0x0000000000000e71      0x790
+ *(.rodata)
+ *(.rodata*)
+ .rodata._main.str1.1
+                0x0000000000000e71       0xc8 build/main.o
+ .rodata.initSysUtil.str1.1
+                0x0000000000000f39       0x9c /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+ .rodata.initLibc.str1.1
+                0x0000000000000fd5      0x1f8 /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+                                        0x216 (size before relaxing)
+ .rodata.initNetwork.str1.1
+                0x00000000000011cd      0x173 /opt/ps4sdk/libPS4/libPS4.a(network.o)
+ .rodata.initKernel.str1.1
+                0x0000000000001340      0x2c1 /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+                                        0x2d4 (size before relaxing)
+
+.gnu.version_d  0x0000000000001608        0x0
+ .gnu.version_d
+                0x0000000000001608        0x0 /tmp/ccKcuYsl.o
+
+.gnu.version    0x0000000000001602        0x0
+ .gnu.version   0x0000000000001602        0x0 /tmp/ccKcuYsl.o
+
+.gnu.version_r  0x0000000000001608        0x0
+ .gnu.version_r
+                0x0000000000001608        0x0 /tmp/ccKcuYsl.o
+
+.dynsym         0x0000000000001608       0x18
+ .dynsym        0x0000000000001608       0x18 /tmp/ccKcuYsl.o
+
+.dynstr         0x0000000000001620        0x1
+ .dynstr        0x0000000000001620        0x1 /tmp/ccKcuYsl.o
+
+.gnu.hash       0x0000000000001628       0x1c
+ .gnu.hash      0x0000000000001628       0x1c /tmp/ccKcuYsl.o
+
+.eh_frame_hdr   0x0000000000001644        0x0
+ .eh_frame_hdr  0x0000000000001644        0x0 build/main.o
+
+.rela.dyn       0x0000000000001648        0x0
+ .rela.plt      0x0000000000001648        0x0 /tmp/ccKcuYsl.o
+ .rela.got      0x0000000000001648        0x0 /tmp/ccKcuYsl.o
+ .rela.bss      0x0000000000001648        0x0 /tmp/ccKcuYsl.o
+ .rela.data.rel.ro
+                0x0000000000001648        0x0 /tmp/ccKcuYsl.o
+ .rela.ifunc    0x0000000000001648        0x0 /tmp/ccKcuYsl.o
+ .rela.text._main
+                0x0000000000001648        0x0 /tmp/ccKcuYsl.o
+ .rela.text.initSysUtil
+                0x0000000000001648        0x0 /tmp/ccKcuYsl.o
+ .rela.text.initLibc
+                0x0000000000001648        0x0 /tmp/ccKcuYsl.o
+ .rela.text.initNetwork
+                0x0000000000001648        0x0 /tmp/ccKcuYsl.o
+ .rela.text.SckSend
+                0x0000000000001648        0x0 /tmp/ccKcuYsl.o
+ .rela.text.initKernel
+                0x0000000000001648        0x0 /tmp/ccKcuYsl.o
+ .rela.text     0x0000000000001648        0x0 /tmp/ccKcuYsl.o
+
+.data
+ *(.data)
+
+.dynamic        0x0000000000001648       0xe0
+ .dynamic       0x0000000000001648       0xe0 /tmp/ccKcuYsl.o
+                0x0000000000001648                _DYNAMIC
+
+.got            0x0000000000001728        0x0
+ .got           0x0000000000001728        0x0 /tmp/ccKcuYsl.o
+
+.got.plt        0x0000000000001728        0x0
+ .got.plt       0x0000000000001728        0x0 /tmp/ccKcuYsl.o
+
+.data.rel.ro    0x0000000000001728        0x0
+ .data.rel.ro   0x0000000000001728        0x0 /tmp/ccKcuYsl.o
+
+.data.DEBUG_SOCK
+                0x0000000000001728        0x4
+ .data.DEBUG_SOCK
+                0x0000000000001728        0x4 /opt/ps4sdk/libPS4/libPS4.a(debug.o)
+                0x0000000000001728                DEBUG_SOCK
+
+.bss            0x0000000000001730      0x488
+ *(.bss)
+ COMMON         0x0000000000001730       0x54 /opt/ps4sdk/libPS4/libPS4.a(sysutil.o)
+                0x0000000000001730                sceUserServiceInitialize
+                0x0000000000001738                sceSysUtilSendSystemNotificationWithText
+                0x0000000000001740                sceUserServiceGetInitialUser
+                0x0000000000001748                libSceUserService
+                0x0000000000001750                sceSystemServiceLaunchWebBrowser
+                0x0000000000001758                sceUserServiceGetUserName
+                0x0000000000001760                libSceSystemService
+                0x0000000000001768                sceUserServiceGetLoginUserIdList
+                0x0000000000001770                sceUserServiceTerminate
+                0x0000000000001778                sceKernelReboot
+                0x0000000000001780                sysUtilHandle
+ *fill*         0x0000000000001784        0x4 
+ COMMON         0x0000000000001788      0x220 /opt/ps4sdk/libPS4/libPS4.a(libc.o)
+                0x0000000000001788                strcpy
+                0x0000000000001790                asctime
+                0x0000000000001798                libc
+                0x00000000000017a0                strerror
+                0x00000000000017a8                memmove
+                0x00000000000017b0                snprintf
+                0x00000000000017b8                strncpy_s
+                0x00000000000017c0                ceil
+                0x00000000000017c8                memcpy
+                0x00000000000017d0                seekdir
+                0x00000000000017d8                rewinddir
+                0x00000000000017e0                malloc
+                0x00000000000017e8                readdir_r
+                0x00000000000017f0                getprogname
+                0x00000000000017f8                readdir
+                0x0000000000001800                strtol
+                0x0000000000001808                snprintf_s
+                0x0000000000001810                strrchr
+                0x0000000000001818                calloc
+                0x0000000000001820                rindex
+                0x0000000000001828                atof
+                0x0000000000001830                _Getpctype
+                0x0000000000001838                fprintf
+                0x0000000000001840                ctime
+                0x0000000000001848                strcat
+                0x0000000000001850                fseek
+                0x0000000000001858                mktime
+                0x0000000000001860                strstr
+                0x0000000000001868                rand
+                0x0000000000001870                dirfd
+                0x0000000000001878                strlcpy
+                0x0000000000001880                strncmp
+                0x0000000000001888                strncpy
+                0x0000000000001890                realloc
+                0x0000000000001898                bcopy
+                0x00000000000018a0                strtok
+                0x00000000000018a8                memcmp
+                0x00000000000018b0                sscanf
+                0x00000000000018b8                strncat
+                0x00000000000018c0                memmove_s
+                0x00000000000018c8                fread
+                0x00000000000018d0                _Stoul
+                0x00000000000018d8                strdup
+                0x00000000000018e0                index
+                0x00000000000018e8                fopen
+                0x00000000000018f0                asctime_r
+                0x00000000000018f8                localtime
+                0x0000000000001900                memset
+                0x0000000000001908                ftell
+                0x0000000000001910                srand
+                0x0000000000001918                fclose
+                0x0000000000001920                time
+                0x0000000000001928                opendir
+                0x0000000000001930                strcmp
+                0x0000000000001938                gmtime_s
+                0x0000000000001940                memalign
+                0x0000000000001948                sprintf
+                0x0000000000001950                ctime_r
+                0x0000000000001958                localtime_r
+                0x0000000000001960                isdigit
+                0x0000000000001968                fwrite
+                0x0000000000001970                atoi
+                0x0000000000001978                gmtime
+                0x0000000000001980                strlen
+                0x0000000000001988                strchr
+                0x0000000000001990                closedir
+                0x0000000000001998                telldir
+                0x00000000000019a0                free
+ COMMON         0x00000000000019a8       0xd0 /opt/ps4sdk/libPS4/libPS4.a(network.o)
+                0x00000000000019a8                sceNetCtlInit
+                0x00000000000019b0                sceNetHtonll
+                0x00000000000019b8                sceNetNtohll
+                0x00000000000019c0                sceNetCtlGetInfo
+                0x00000000000019c8                sceNetInetNtop
+                0x00000000000019d0                sceNetSocket
+                0x00000000000019d8                sceNetInetPton
+                0x00000000000019e0                sceNetGetsockname
+                0x00000000000019e8                sceNetHtons
+                0x00000000000019f0                sceNetSend
+                0x00000000000019f8                sceNetHtonl
+                0x0000000000001a00                sceNetErrnoLoc
+                0x0000000000001a08                sceNetSetsockopt
+                0x0000000000001a10                sceNetSocketClose
+                0x0000000000001a18                sceNetRecv
+                0x0000000000001a20                sceNetBind
+                0x0000000000001a28                libNetCtl
+                0x0000000000001a30                sceNetConnect
+                0x0000000000001a38                sceNetNtohs
+                0x0000000000001a40                sceNetCtlTerm
+                0x0000000000001a48                sceNetListen
+                0x0000000000001a50                sceNetNtohl
+                0x0000000000001a58                sceNetGetsockopt
+                0x0000000000001a60                sceNetAccept
+                0x0000000000001a68                libNet
+                0x0000000000001a70                sceNetSocketAbort
+ COMMON         0x0000000000001a78      0x140 /opt/ps4sdk/libPS4/libPS4.a(kernel.o)
+                0x0000000000001a78                sceKernelGettimeofday
+                0x0000000000001a80                getgid
+                0x0000000000001a88                libKernelHandle
+                0x0000000000001a90                __stack_chk_guard
+                0x0000000000001a98                sceKernelGetDirectMemorySize
+                0x0000000000001aa0                execve
+                0x0000000000001aa8                getpid
+                0x0000000000001ab0                sceKernelSleep
+                0x0000000000001ab8                sceKernelGetCurrentCpu
+                0x0000000000001ac0                sceKernelDeleteEqueue
+                0x0000000000001ac8                sceKernelGetCpuTemperature
+                0x0000000000001ad0                getuid
+                0x0000000000001ad8                __stack_chk_fail
+                0x0000000000001ae0                sceKernelMapDirectMemory
+                0x0000000000001ae8                sysarch
+                0x0000000000001af0                sceKernelError
+                0x0000000000001af8                sysctl
+                0x0000000000001b00                sceKernelRead
+                0x0000000000001b08                setregid
+                0x0000000000001b10                __error
+                0x0000000000001b18                sceKernelSendNotificationRequest
+                0x0000000000001b20                setgid
+                0x0000000000001b28                sceKernelLseek
+                0x0000000000001b30                sceKernelStat
+                0x0000000000001b38                sceKernelLoadStartModule
+                0x0000000000001b40                sceKernelGetSystemSwVersion
+                0x0000000000001b48                sceKernelClose
+                0x0000000000001b50                pthread_setaffinity_np
+                0x0000000000001b58                sceKernelGetProcessTime
+                0x0000000000001b60                setreuid
+                0x0000000000001b68                sceKernelAllocateDirectMemory
+                0x0000000000001b70                sceKernelUsleep
+                0x0000000000001b78                sceKernelAddUserEvent
+                0x0000000000001b80                pthread_self
+                0x0000000000001b88                sceKernelCreateEqueue
+                0x0000000000001b90                sceKernelOpen
+                0x0000000000001b98                setuid
+                0x0000000000001ba0                sceKernelGetFsSandboxRandomWord
+                0x0000000000001ba8                sceKernelAddReadEvent
+                0x0000000000001bb0                sysctlbyname
+
+.dynbss         0x0000000000001bb8        0x0
+ .dynbss        0x0000000000001bb8        0x0 /tmp/ccKcuYsl.o
+
+.bss.sceKernelDebugOutText.3399
+                0x0000000000001bb8        0x8
+ .bss.sceKernelDebugOutText.3399
+                0x0000000000001bb8        0x8 build/main.o
+
+.bss.kernel_base
+                0x0000000000001bc0        0x8
+ .bss.kernel_base
+                0x0000000000001bc0        0x8 build/main.o
+                0x0000000000001bc0                kernel_base
+
+/DISCARD/
+ *(.comment)
+ *(.note.GNU-stack)
+ *(.eh_frame)
+ *(.interp)
+LOAD /opt/ps4sdk/libPS4/libPS4.a
+OUTPUT(temp.t elf64-x86-64)
