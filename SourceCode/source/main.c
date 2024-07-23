@@ -36,7 +36,7 @@ int _main(struct thread *td) {
         sceKernelDebugOutText(0, "");
     }
 
-    printf_notification("Disable System Updates!       Coded By Karf5");
+    printf_notification("Disable System Updates!" "\nCoded By Karf5");
     syscall(11, kpayload);
     char buf[255];
     sprintf(buf, "kernel_base: %p\n", kernel_base);
